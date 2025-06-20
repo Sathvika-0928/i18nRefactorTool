@@ -8,7 +8,7 @@ namespace SampleInput
     {
         public void Greet()
         {
-            Console.WriteLine(Resources.Key_5___10___10___5);
+            Console.WriteLine("Hello");
         }
     }
 }

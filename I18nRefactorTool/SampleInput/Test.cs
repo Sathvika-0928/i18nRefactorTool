@@ -4,8 +4,8 @@ namespace SampleInput
     {
         public void Greet()
         {
-            Console.WriteLine(Resources.Good_Morning);
-            Console.WriteLine(Resources.Battery__Low);
+            Console.WriteLine("Good_Morning");
+            Console.WriteLine("Battery__Low");
         }
     }
 }
