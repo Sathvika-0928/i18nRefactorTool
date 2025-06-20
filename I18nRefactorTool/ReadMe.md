@@ -53,7 +53,7 @@ cd I18nRefactorTool
 dotnet run 
 
 
-✅ What It Does
+### ✅ What It Does
 Given this input:
 
     Console.WriteLine("Hello World");
@@ -74,7 +74,7 @@ Refactors the code:
     Console.WriteLine(Resources.HelloWorld);
     Console.WriteLine(Resources.BatteryLow);
 
-📒 Rules for Extraction
+### 📒 Rules for Extraction
 Ignores strings shorter than 3 characters
 
 Skips strings with {, }, or =
@@ -89,10 +89,10 @@ Removes punctuation from keys and limits them to 30 characters
 ✅ Optional log via ReportManager
 
 
-🧪 Testing
+### 🧪 Testing
 To test, create .cs files in the SampleInput/ folder with hardcoded strings and run the tool.
 
-🔍 Future Improvements
+### 🔍 Future Improvements
 Support directory-wide scans
 
 Add duplicate key handling and suffixing
@@ -102,7 +102,7 @@ Generate Designer.cs for strongly-typed access
 Provide a config file to set key length, ignore patterns, etc.
 
 
-🐞 Troubleshooting
+###🐞 Troubleshooting
 Resource Key Not Found:
 
 Ensure Resources.Designer.cs is generated. If not, rebuild the project or right-click Resources.resx → Run Custom Tool in IDE.
@@ -113,5 +113,7 @@ Add this to .csproj to avoid automatic inclusion:
    
    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
 
-👩‍💻 Author
+###👩‍💻 Author
 Developed by Sathvika Vasamsetti.
+
+**# 🛠️ i18nRefactorTool (.NET CLI Utility)**
