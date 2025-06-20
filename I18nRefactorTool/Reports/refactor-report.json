@@ -1,0 +1,17 @@
+[
+  {
+    "File": "/Users/sathvikavasamsetti/Desktop/i18nRefactorTool/I18nRefactorTool/SampleInput/Test.cs",
+    "Key": "Good_Morning",
+    "Value": "Good Morning"
+  },
+  {
+    "File": "/Users/sathvikavasamsetti/Desktop/i18nRefactorTool/I18nRefactorTool/SampleInput/Test.cs",
+    "Key": "Battery__Low",
+    "Value": "Battery: Low"
+  },
+  {
+    "File": "/Users/sathvikavasamsetti/Desktop/i18nRefactorTool/I18nRefactorTool/SampleInput/Hello.cs",
+    "Key": "Key_5___10___10___5",
+    "Value": "5 \u003C 10 \u0026 10 \u003E 5"
+  }
+]
