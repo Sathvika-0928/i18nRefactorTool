@@ -115,5 +115,3 @@ Add this to .csproj to avoid automatic inclusion:
 
 ###👩‍💻 Author
 Developed by Sathvika Vasamsetti.
-
-**# 🛠️ i18nRefactorTool (.NET CLI Utility)**
